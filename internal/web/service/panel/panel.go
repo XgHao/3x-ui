@@ -41,6 +41,8 @@ type PanelUpdateInfo struct {
 }
 
 const (
+	// The updater script is served from this fork so a panel self-update
+	// installs from this fork's releases only, never upstream's.
 	panelUpdaterURL      = "https://raw.githubusercontent.com/XgHao/3x-ui/main/update.sh"
 	maxPanelUpdaterBytes = 2 << 20
 	// devReleaseTag is the fixed-tag rolling pre-release the CI force-moves to the
