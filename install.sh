@@ -1,4 +1,5 @@
 #!/bin/bash
+# Fork of MHSanaei/3x-ui — installs from the XgHao/3x-ui releases.
 
 red='\033[0;31m'
 green='\033[0;32m'
